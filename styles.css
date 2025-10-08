@@ -100,6 +100,23 @@ button.button-one{
     width: 90px;
 }
 
+button.button-one{
+    display: flex;
+    margin-right: 300px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 3px;
+    border-style: none;
+    background-color: #3882F8;
+    color: white;
+    font-weight: 700;
+    flex-shrink: 0;
+    width: 90px;
+    cursor: pointer;
+}
+
 div.body-container_one{
     display: flex;
     flex-direction: column;
@@ -197,6 +214,23 @@ button.button-two{
     font-weight: 700;
     flex-shrink: 0;
     width: 90px;
+    cursor: pointer;
+}
+
+button.button-two:hover{
+    display: flex;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #3882F8;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: 700;
+    flex-shrink: 0;
+    width: 90px;
+    cursor: pointer;
 }
 
 div.action-p{
